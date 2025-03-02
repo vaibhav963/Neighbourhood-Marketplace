@@ -1,0 +1,14 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}Logout{% endblock %}
+
+{% block content %}
+<div class="w-1/2 my-6 mx-auto p-6 bg-gray-100 rounded-xl text-center">
+    <h1 class="mb-6 text-3xl font-semibold">You have been logged out</h1>
+    <p class="text-lg text-gray-600 mb-6">Thank you for visiting the Neighbourhood Marketplace!</p>
+
+    <a href="{% url 'myapp:login' %}" class="px-6 py-3 text-lg bg-teal-500 text-white rounded-xl hover:bg-teal-700">
+        Log In Again
+    </a>
+</div>
+{% endblock %}
