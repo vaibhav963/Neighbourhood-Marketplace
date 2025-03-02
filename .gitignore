@@ -1,0 +1,17 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore Django secret keys
+*.sqlite3
+db.sqlite3
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore environment variables
+.env
